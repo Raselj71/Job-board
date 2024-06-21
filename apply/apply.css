@@ -1,0 +1,36 @@
+.job-details {
+     border: 1px solid #e3e3e3;
+     border-radius: 5px;
+     padding: 20px;
+     margin-top: 20px;
+     background: #fff;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ .job-details img {
+     max-height: 100px;
+     margin-bottom: 15px;
+ }
+
+ .job-title {
+     font-size: 2rem;
+     font-weight: bold;
+ }
+
+ .job-location,
+ .job-company,
+ .job-type,
+ .job-salary {
+     font-size: 1rem;
+     color: #777;
+ }
+
+ .verified-badge {
+     background: #dff0d8;
+     color: #3c763d;
+     padding: 3px 5px;
+     border-radius: 3px;
+     font-size: 0.8rem;
+     margin-bottom: 10px;
+     display: inline-block;
+ }

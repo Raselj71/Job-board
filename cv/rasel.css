@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: var(--heading-color);
+}
+
+:root{
+   
+        --border-color:#01a698;
+        --heading-color:#333333;
+}
+
+body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+   
+}
+
+.comp-container{
+   
+    max-width: 1000px;
+    width: 100%;
+     display: flex;
+    border: 10px solid var(--border-color);
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.left-content{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.left-content__container{
+    width: 90%;
+    background-color: #d1e8e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.right-content{
+    width: 55%;
+}
+
+.name{
+    margin-top: 40px;
+    font-weight: 800;
+    color: var(--heading-color);
+    font-size: 40px;
+}
+.title{
+    color: var(--heading-color);
+    font-weight: 300;
+   
+}
+.profile{
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    margin-top: 30px;
+    border: 10px solid rgba(95, 95, 95, 0.133);
+}
+.contact-div{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    background-color: var(--border-color);
+    border-radius: 50%;
+    border: 5px solid var(--border-color);
+    margin: 5px;
+}
+
+.heading{
+    font-weight: 800;
+    color: var(--heading-color);
+    margin: 5px;
+   font-size: 25px;
+}
+.hr-div{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.fa-phone-volume{
+    color: var(--heading-color);
+    height:10px;
+    width:10px;
+    margin-right: 15px;
+}
+
+.mini-icon{
+        color: var(--heading-color);
+        height: 10px;
+        width: 10px;
+        margin-right: 15px;
+}
+
+.second-div{
+    display: flex;
+        align-items: center;
+        margin: 4px;
+}
+
+.separator{
+   width: 60%;
+   margin: 20px 0 20px 0;
+    border: 1px solid var(--heading-color);
+}
+
+.font-awesome-icon{
+    color: white;
+    width: 30px;
+    height: 30px;
+    background-color: var(--border-color);
+    text-align: center;
+    align-self: center;
+}
+
+.graduate-div{
+    display: flex;
+    align-items: center;
+}
+
+.fa-graduation-cap{
+    color: white;
+    background-color: var(--border-color);
+    padding: 7px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.versity-heading{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.degree{
+    font-size: 15px;
+    font-weight: 600;
+}
+.addr{
+    margin-top: 5px;
+}
+.right-content{
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+.profile-info{
+        text-align: justify;
+        font-size: medium;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+}
+
+.work-container{
+    margin-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+.job-role{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+

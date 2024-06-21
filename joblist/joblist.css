@@ -1,0 +1,71 @@
+.job-card {
+     border: 1px solid #e3e3e3;
+     border-radius: 5px;
+     padding: 20px;
+     margin-bottom: 20px;
+     background: #fff;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ .job-card img {
+     max-height: 50px;
+     margin-bottom: 15px;
+ }
+
+ .job-title {
+     font-size: 1.25rem;
+     font-weight: bold;
+     margin-top: 2rem;
+     margin-bottom: 1.5rem;
+ }
+ #btn{
+    background-color: #3c763d;
+ }
+
+ 
+.job-company{
+    font-size: 25px;
+    font-weight: 600;
+}
+ .job-location,
+ .job-type,
+ .job-salary {
+     font-size: 0.9rem;
+     color: #777;
+ }
+
+ .verified-badge {
+     background: #dff0d8;
+     color: #3c763d;
+     padding: 3px 5px;
+     border-radius: 3px;
+     font-size: 0.8rem;
+     margin-bottom: 10px;
+     display: inline-block;
+ }
+
+ .apply-btn {
+     margin-top: 15px;
+     
+ }
+ .company_container{
+    display: flex;
+    
+ }
+
+ .company_container img{
+    width: 70px;
+    height: 70px;
+ }
+ .company_container_content{
+    margin-left: 10px;
+ }
+ .salary{
+    display: flex;
+    justify-content: space-between;
+ }
+ .image-conatiner{
+    width: 70px;
+    height: 70px;
+ }
+

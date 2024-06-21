@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background-color:#D1E8E6;
+    --form-background:#01A698;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: var(--background-color);
+    font-family: "Inter", sans-serif;
+}
+.form-container{
+    margin-bottom: 10rem;
+    width: 100%;
+}
+.form{
+    background-color:#183444;
+    margin: 0 20rem 0 20rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+   
+}
+.title{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 30px;
+}
+.heading{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+hr{
+    
+    width: 100%;
+        margin: 20px 0 20px 0;
+        border: 1px solid white;
+        
+}
+.container{
+    width: 100%;
+    
+}
+input{
+    height: 5vh;
+    width: 100%;
+    margin: 0.5rem;
+    outline: none;
+    border: none;
+    background-color: var(--background-color);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 20px;
+}
+#submit{
+    background-color: #72B261;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
